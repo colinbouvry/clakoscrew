@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="lazerQuest2" />
+		<Option makefile_is_custom="1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="addons/;src/;build config/;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/$(PROJECT_NAME)_debug" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="obj/Debug/" />
+				<Option external_deps="../../../libs/openFrameworksCompiled/lib/linux64/libopenFrameworksDebug.a;" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+			</Target>
+			<Target title="Release">
+				<Option output="bin/$(PROJECT_NAME)" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="obj/Release/" />
+				<Option external_deps="../../../libs/openFrameworksCompiled/lib/linux64/libopenFrameworks.a;" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+			</Target>
+		</Build>
+		<Unit filename="config.make">
+			<Option virtualFolder="build config" />
+		</Unit>
+		<Unit filename="src/main.cpp">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Unit filename="src/ofApp.cpp">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Unit filename="src/ofApp.h">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+		<Unit filename="../../../addons/ofxOpenLase/src/ofxOpenLase.h">
+			<Option virtualFolder="addons/ofxOpenLase/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOpenLase/src/ofxOpenLase.cpp">
+			<Option virtualFolder="addons/ofxOpenLase/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOpenLase/libs/openlase/include/ilda.h">
+			<Option virtualFolder="addons/ofxOpenLase/libs/openlase/include" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOpenLase/libs/openlase/include/text.h">
+			<Option virtualFolder="addons/ofxOpenLase/libs/openlase/include" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOpenLase/libs/openlase/include/libol.h">
+			<Option virtualFolder="addons/ofxOpenLase/libs/openlase/include" />
+		</Unit>
+		<Unit filename="../../../addons/ofxOpenLase/libs/openlase/include/trace.h">
+			<Option virtualFolder="addons/ofxOpenLase/libs/openlase/include" />
+		</Unit>
+		<Unit filename="../../../addons/ofxCinderTimeline/src/ofxCinderTimeline.h">
+			<Option virtualFolder="addons/ofxCinderTimeline/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxCinderTimeline/libs/cinder/src/cinder/Timeline.cpp">
+			<Option virtualFolder="addons/ofxCinderTimeline/libs/cinder/src/cinder" />
+		</Unit>
+		<Unit filename="../../../addons/ofxCinderTimeline/libs/cinder/src/cinder/Tween.cpp">
+			<Option virtualFolder="addons/ofxCinderTimeline/libs/cinder/src/cinder" />
+		</Unit>
+		<Unit filename="../../../addons/ofxCinderTimeline/libs/cinder/src/cinder/CinderMath.cpp">
+			<Option virtualFolder="addons/ofxCinderTimeline/libs/cinder/src/cinder" />
+		</Unit>
+		<Unit filename="../../../addons/ofxCinderTimeline/libs/cinder/src/cinder/TimelineItem.cpp">
+			<Option virtualFolder="addons/ofxCinderTimeline/libs/cinder/src/cinder" />
+		</Unit>
+		<Unit filename="../../../addons/ofxCinderTimeline/libs/cinder/include/cinder/Tween.h">
+			<Option virtualFolder="addons/ofxCinderTimeline/libs/cinder/include/cinder" />
+		</Unit>
+		<Unit filename="../../../addons/ofxCinderTimeline/libs/cinder/include/cinder/Function.h">
+			<Option virtualFolder="addons/ofxCinderTimeline/libs/cinder/include/cinder" />
+		</Unit>
+		<Unit filename="../../../addons/ofxCinderTimeline/libs/cinder/include/cinder/Timeline.h">
+			<Option virtualFolder="addons/ofxCinderTimeline/libs/cinder/include/cinder" />
+		</Unit>
+		<Unit filename="../../../addons/ofxCinderTimeline/libs/cinder/include/cinder/Easing.h">
+			<Option virtualFolder="addons/ofxCinderTimeline/libs/cinder/include/cinder" />
+		</Unit>
+		<Unit filename="../../../addons/ofxCinderTimeline/libs/cinder/include/cinder/Cinder.h">
+			<Option virtualFolder="addons/ofxCinderTimeline/libs/cinder/include/cinder" />
+		</Unit>
+		<Unit filename="../../../addons/ofxCinderTimeline/libs/cinder/include/cinder/TimelineItem.h">
+			<Option virtualFolder="addons/ofxCinderTimeline/libs/cinder/include/cinder" />
+		</Unit>
+		<Unit filename="../../../addons/ofxCinderTimeline/libs/cinder/include/cinder/CinderMath.h">
+			<Option virtualFolder="addons/ofxCinderTimeline/libs/cinder/include/cinder" />
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
